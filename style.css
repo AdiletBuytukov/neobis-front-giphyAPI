@@ -1,0 +1,28 @@
+body {
+    background-color: #151d2f;
+    margin: 0 auto;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, Fuchsia, SkyBlue, #87CEEB, SpringGreen);
+    padding: 30px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.logo span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
