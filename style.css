@@ -18,11 +18,39 @@ header {
 .logo span {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 36px;
-
+    font-size: 32px;
+    margin-left: 10px;
 }
 
 .logo a {
     text-decoration: none;
     color: white;
+}
+
+.loader {
+    display: none;
+    width: 150px;
+    height: 150px;
+    border: 25px solid grey;
+    border-radius: 50%;
+    border-top-color: SpringGreen;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.gif-container {
+    margin: 20px 0;
+}
+
+.gif-container img {
+    max-width: 33.3%;
 }
